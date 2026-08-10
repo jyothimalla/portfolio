@@ -31,7 +31,7 @@ export const hero = {
 
 export const about = {
   heading: 'About Me',
-  photo: '/profile-photo.jpg', // swap this file in /public to change the photo
+  photo: `${import.meta.env.BASE_URL}profile-photo.jpg`,
   paragraphs: [
     "I'm a researcher exploring how health data analytics, Machine Learning and Artificial Intelligence can address real-world healthcare challenges. My work spans predictive modelling, statistical analysis and natural language processing applied to large-scale clinical and epidemiological data, with a particular focus on early diagnosis, risk stratification and patient pathways in maternal and infant health.",
     "My Master's dissertation on predictive modelling for patient readmission was referenced in a UK Parliament discussion on NHS wait-time planning — part of my MSc in Data Science (Distinction) at Goldsmiths. Building on that work, I'm now starting a PhD focused on developing AI-based Clinical Decision Support tools for maternal and infant health, addressing equity gaps through community health worker-centred frameworks.",
