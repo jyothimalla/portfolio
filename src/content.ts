@@ -19,16 +19,6 @@ export const site = {
   ],
 }
 
-export const hero = {
-  eyebrow: 'PhD Candidate & AI Researcher',
-  // Use <em> around any word/phrase you want in the italic serif style.
-  headline: 'Bridging machine intelligence and <em>maternal health outcomes</em>.',
-  paragraph:
-    "An AI researcher based in London, currently starting a PhD at Goldsmiths, University of London. My work sits at the intersection of Artificial Intelligence and healthcare — focused on Clinical Decision Support systems, predictive modelling and NLP for maternal and infant health equity.",
-  primaryCta: { label: 'Get in Touch', href: '#contact' },
-  secondaryCta: { label: 'See Publications', href: '#publications' },
-}
-
 export const about = {
   heading: 'About Me',
   photo: `${import.meta.env.BASE_URL}profile-photo.jpg`,
