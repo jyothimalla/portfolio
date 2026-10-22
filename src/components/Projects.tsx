@@ -18,6 +18,16 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
+              {p.link && (
+                <a
+                  href={p.link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-accent text-sm font-semibold mt-5 inline-block hover:underline"
+                >
+                  {p.link.label} →
+                </a>
+              )}
             </article>
           ))}
         </div>
