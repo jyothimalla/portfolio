@@ -7,7 +7,7 @@
 
 export const site = {
   name: 'Jyothi Malla',
-  title: 'Jyothi Malla - AI Researcher & PhD Candidate',
+  title: 'Jyothi Malla - PhD Student, Goldsmiths, University of London',
   email: 'mjyothionline@gmail.com',
   location: 'London, United Kingdom',
   year: '2026',
@@ -21,17 +21,23 @@ export const site = {
 
 export const about = {
   heading: 'About Me',
-  photo: `${import.meta.env.BASE_URL}profile-photo.jpg`,
+  photo: `${import.meta.env.BASE_URL}Profile_ic_Jo%20Medium.jpeg`,
   paragraphs: [
-    "I'm a researcher exploring how health data analytics, Machine Learning and Artificial Intelligence can address real-world healthcare challenges. My work spans predictive modelling, statistical analysis and natural language processing applied to large-scale clinical and epidemiological data, with a particular focus on early diagnosis, risk stratification and patient pathways in maternal and infant health.",
-    "My Master's dissertation on predictive modelling for patient readmission was referenced in a UK Parliament discussion on NHS wait-time planning — part of my MSc in Data Science (Distinction) at Goldsmiths. Building on that work, I'm now starting a PhD focused on developing AI-based Clinical Decision Support tools for maternal and infant health, addressing equity gaps through community health worker-centred frameworks.",
+    "I'm a PhD student at Goldsmiths, University of London, exploring how health data analytics, Machine Learning and Artificial Intelligence can address real-world healthcare challenges. My work spans predictive modelling, statistical analysis and natural language processing applied to large-scale clinical and epidemiological data, with a particular focus on early diagnosis, risk stratification and patient pathways in maternal and infant health.",
+    "My Master's dissertation on predictive modelling for patient readmission was referenced in a UK Parliament discussion on NHS wait-time planning — part of my MSc in Data Science (Distinction) at Goldsmiths. Building on that work, my PhD focuses on developing AI-based Clinical Decision Support tools for maternal and infant health, addressing equity gaps through community health worker-centred frameworks.",
   ],
-  tags: ['London, UK', 'PhD Candidate, Goldsmiths', 'English · Telugu · Hindi'],
+  tags: ['London, UK', 'PhD Student, Goldsmiths', 'English · Telugu · Hindi'],
 }
 
 export const education = {
   heading: 'Education',
   items: [
+    {
+      badge: 'PHD',
+      degree: 'PhD',
+      school: 'Goldsmiths, University of London',
+      detail: 'In progress',
+    },
     {
       badge: 'MSC',
       degree: 'MS in Data Science',
@@ -117,11 +123,20 @@ export const projects = {
   heading: 'Selected Projects & Publications',
   items: [
     {
+      kind: 'Client Project',
+      title: 'Readiness Global — Global Talent Visa Readiness Platform',
+      description:
+        'Developer of Readiness Global, built from scratch with Dr. Yemisi Adedeji and launched in October 2026. The platform helps international researchers and professionals prepare for the UK Global Talent Visa: a free eligibility checker returns a clear readiness tier (Apply Now, Strengthen Before Applying, or Not Yet) with a downloadable summary, alongside an AI chat assistant that answers applicant questions.',
+      tags: ['React', 'TypeScript', 'TanStack', 'Tailwind CSS', 'Supabase', 'AI Assistant'],
+      link: { label: 'Visit site', href: 'https://readinessglobal.co.uk/' },
+    },
+    {
       kind: 'Project',
       title: 'NurtureAI — Clinical Decision Support System',
       description:
         'Full-stack React/Vite CDS frontend comprising a midwife dashboard, patient detail views, assessment wizard and mother-facing view, backed by a FastAPI (Python) service for data ingestion, predictive scoring and clinical alerts, with a PostgreSQL/SQLAlchemy data layer and GitLab CI/CD.',
       tags: ['React', 'Vite', 'FastAPI', 'PostgreSQL'],
+      link: null,
     },
     {
       kind: 'MSc Dissertation',
@@ -129,6 +144,7 @@ export const projects = {
       description:
         'MSc dissertation developing ML/NLP models on high-granularity clinical notes to predict hospital readmission risk. Cited in a UK Parliament discussion on NHS wait-time planning; research subsequently published peer-reviewed.',
       tags: ['Machine Learning', 'NLP', 'Python'],
+      link: null,
     },
   ],
   publicationsHeading: 'Publications',
