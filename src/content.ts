@@ -81,6 +81,13 @@ export const experience = {
       tags: ['Python', 'Statistics', 'Data Analysis'],
     },
     {
+      period: 'Sep 2024 — Mar 2025',
+      title: 'AI Engineer Intern',
+      org: 'elloloop (Remote)',
+      bullets: ['Worked on applied AI engineering tasks across the internship period.'],
+      tags: ['AI Engineering', 'Python'],
+    },
+    {
       period: 'Apr 2022 — Sep 2023',
       title: 'Manager — Data Engineering',
       org: 'Bank of India, Mumbai, India',
@@ -120,7 +127,7 @@ export const experience = {
 }
 
 export const projects = {
-  heading: 'Selected Projects & Publications',
+  heading: 'Projects',
   items: [
     {
       kind: 'Client Project',
@@ -144,6 +151,30 @@ export const projects = {
       description:
         'MSc dissertation developing ML/NLP models on high-granularity clinical notes to predict hospital readmission risk. Cited in a UK Parliament discussion on NHS wait-time planning; research subsequently published peer-reviewed.',
       tags: ['Machine Learning', 'NLP', 'Python'],
+      link: null,
+    },
+    {
+      kind: 'Project',
+      title: 'Mathematics Quiz Challenge',
+      description:
+        'A dynamic, web-based quiz platform that helps students practise core mathematics operations through progressively challenging levels, with level tracking, a visual topic spinner and real-time scoreboards.',
+      tags: ['Flask', 'PostgreSQL', 'SQLAlchemy', 'JavaScript'],
+      link: { label: 'View code', href: 'https://github.com/jyothimalla/MathematicsChallenges' },
+    },
+    {
+      kind: 'Project',
+      title: 'MockLoop',
+      description:
+        'An LLM-driven mock interview platform that generates role-specific interview questions and structured feedback, with a FastAPI backend orchestrating question generation and scoring via the Anthropic Claude API and a React/TypeScript front-end.',
+      tags: ['FastAPI', 'React', 'TypeScript', 'Claude API'],
+      link: null,
+    },
+    {
+      kind: 'Project',
+      title: 'Seluna',
+      description:
+        'A privacy-focused personal health application, designed around privacy-by-default handling of sensitive user health data.',
+      tags: ['Python', 'Privacy', 'Health'],
       link: null,
     },
   ],
