@@ -57,7 +57,7 @@ export const experience = {
   heading: 'Experience',
   items: [
     {
-      period: 'Sep 2024 — Present',
+      period: 'Sep 2024 — Aug 2026',
       title: 'Research Collaborator — AI in Maternal & Infant Health',
       org: 'Goldsmiths, University of London',
       bullets: [
